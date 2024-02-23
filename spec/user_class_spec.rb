@@ -1,4 +1,4 @@
-require_relative 'user'
+require 'user_class'
 
 RSpec.describe User do
   describe "#log_in" do

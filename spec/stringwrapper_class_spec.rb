@@ -1,3 +1,5 @@
+require 'stringwrapper_class'
+
 RSpec.describe StringWrapper do
   describe "#reverse" do
     it "reverses the string" do
@@ -10,7 +12,7 @@ RSpec.describe StringWrapper do
   describe "#upcase" do
     it "converts the string to uppercase" do
       str = "hello"
-      string_warpper = StringWrapper.new(str)
+      string_wrapper = StringWrapper.new(str)
       expect(string_wrapper.upcase).to eq(str.upcase)
     end
   end

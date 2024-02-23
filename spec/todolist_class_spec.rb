@@ -1,4 +1,4 @@
-require_relative 'todolist'
+require 'todolist_class'
 
 RSpec.describe TodoList do
   describe "#add" do
